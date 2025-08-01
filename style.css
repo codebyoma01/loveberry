@@ -265,7 +265,6 @@ p {
   color: var(--dark-color);
   margin-bottom: 1rem;
 }
-/* Order Section Styling */
 .order-section {
   padding: 4rem 2rem;
   background-color: #fff8f1;
@@ -286,7 +285,7 @@ p {
   color: #555;
 }
 
-/* Order Form Container */
+
 .order-container {
   max-width: 800px;
   margin: 0 auto;
@@ -296,7 +295,7 @@ p {
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
 }
 
-/* Form Layout */
+
 .order-form .form-group {
   margin-bottom: 1.5rem;
   text-align: left;
@@ -330,7 +329,6 @@ p {
   outline: none;
 }
 
-/* Submit Button */
 .order-form .btn {
   padding: 0.9rem 2rem;
   font-size: 1rem;
@@ -346,7 +344,6 @@ p {
   background-color: #6e5538;
 }
 
-/* Responsive Adjustments */
 @media (max-width: 600px) {
   .order-container {
     padding: 1.5rem 1rem;
@@ -401,7 +398,7 @@ p {
   background-color: #d9b65e;
   color: #000;
 }
-/* About Section */
+
 .about-section {
   display: flex;
   flex-wrap: wrap;
@@ -443,7 +440,7 @@ p {
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .about-section {
     flex-direction: column-reverse;
@@ -458,7 +455,7 @@ p {
     margin-bottom: 2rem;
   }
 }
-/* Contact Page Hero */
+
 .contact-hero {
   text-align: center;
   padding: 3rem 1rem;
@@ -474,7 +471,6 @@ p {
   color: #555;
 }
 
-/* Contact Info & Form Container */
 .contact-container {
   display: flex;
   flex-wrap: wrap;
@@ -510,7 +506,7 @@ p {
   
 }
 
-/* Contact Form */
+
 .contact-form form {
   display: flex;
   flex-direction: column;
