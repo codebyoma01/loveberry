@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Loveberry – Menu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Loveberry 🍲</div>
+    <div class="hamburger">&#9776;</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="menu-hero">
+    <h2>Our Delicious Menu</h2>
+    <p>Explore a range of traditional Nigerian dishes made with love and local ingredients.</p>
+  </section>
+
+  <!-- Soups & Swallows -->
+  <section class="menu-section">
+    <h3>Soups & Swallows</h3>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="eguzi soup.jpeg" alt="Egusi Soup" loading="lazy" />
+        <h4>Egusi Soup</h4>
+        <p>Rich melon seed soup served with pounded yam or fufu.</p>
+      </div>
+      <div class="menu-item">
+        <img src="oha soup.jpg" alt="Oha Soup" loading="lazy" />
+        <h4>Oha Soup</h4>
+        <p>Thick and tasty oha soup with assorted meats.</p>
+      </div>
+      <div class="menu-item">
+        <img src="okoro.jpeg" alt="Okro Soup" loading="lazy" />
+        <h4>Okro Soup</h4>
+        <p>Delicious okra soup with rich spices and fish.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rice Dishes -->
+  <section class="menu-section">
+    <h3>Rice Dishes</h3>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="Jollof Rice with Chicken - Yummy Wonders.jpeg" alt="Jollof Rice" loading="lazy" />
+        <h4>Jollof Rice</h4>
+        <p>Classic party jollof rice served with plantains and chicken.</p>
+      </div>
+      <div class="menu-item">
+        <img src="Nigerian Fried Rice(LAST FOR DAYS!) - KikiFoodies.jpeg" alt="Fried Rice" loading="lazy" />
+        <h4>Fried Rice</h4>
+        <p>Nigerian-style fried rice with veggies and shrimps.</p>
+      </div>
+      <div class="menu-item">
+        <img src="Ofada Stew Recipe (How To Make Ofada Stew) - My Active Kitchen.jpeg" alt="Ofada Rice" loading="lazy" />
+        <h4>Ofada Rice & Sauce</h4>
+        <p>Native ofada rice served with spicy ayamase sauce.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Snacks & Sides -->
+  <section class="menu-section">
+    <h3>Snacks & Sides</h3>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="puffpuff Cake.jpeg" alt="Puff Puff" loading="lazy" />
+        <h4>Puff Puff</h4>
+        <p>Golden, fluffy deep-fried dough balls.</p>
+      </div>
+      <div class="menu-item">
+        <img src="Spicy Nigerian Beef Suya Recipe from Chef Lola's Kitchen.jpeg" alt="Suya" loading="lazy" />
+        <h4>Suya</h4>
+        <p>Spicy grilled meat skewers with onions and pepper.</p>
+      </div>
+      <div class="menu-item">
+        <img src="moi moi.jpeg" alt="Moi Moi" loading="lazy" />
+        <h4>Moi Moi</h4>
+        <p>Steamed bean pudding with egg and fish.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Loveberry. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

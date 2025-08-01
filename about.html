@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - Loveberry</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Loveberry 🍲</div>
+    <div class="hamburger">&#9776;</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="about-section">
+    <div class="about-content">
+      <h1>About Loveberry</h1>
+      <p>Loveberry is a proudly Nigerian food brand that brings the taste of home to your plate. Founded with a passion for delicious, local meals, we blend tradition with modern convenience making it easy to enjoy your favorite dishes, anytime.</p>
+      <p>We believe in good food made with love, fresh ingredients, and a whole lot of spice. From party Jollof to peppered goat meat, we’ve got you covered.</p>
+      <p>Whether you're dining in, ordering out, or celebrating, Loveberry is your go to kitchen for Nigerian flavor, comfort, and satisfaction.</p>
+    </div>
+    <div class="about-image">
+      <img src="Chefs At Work.jpeg" alt="Loveberry kitchen team" />
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Loveberry. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

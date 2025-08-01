@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loveberry - Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Loveberry 🍲</div>
+  
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="order.html">Order</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </header>
+  
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="site-title">Loveberry</h1>
+      <p class="tagline">Fresh, Flavourful, Fabulous</p>
+      <h2 class="welcome">Welcome to Loveberry</h2>
+      <p class="subheading">Premium Nigerian Cuisine,<br>Crafted with Love</p>
+      <a href="menu.html" class="hero-btn">Explore Menu</a>
+    </div>
+  </section>
+
+  <section class="why-choose-us">
+    <h2>Why Choose Us?</h2>
+    <div class="features">
+      <div class="feature">
+        <img src="Delivery service concept timer and fast delivery inscription express delivery with stopwatch _ Premium Vector.jpeg" alt="Fast Delivery">
+        <h3>Fast Delivery</h3>
+        <p>We deliver hot meals right to your doorstep.</p>
+      </div>
+      <div class="feature">
+        <img src="fresh ing.jpeg" alt="Fresh Ingredients">
+        <h3>Fresh Ingredients</h3>
+        <p>Only the best ingredients in every dish.</p>
+      </div>
+      <div class="feature">
+        <img src="made with love.jpeg" alt="Made with Love">
+        <h3>Made with Love</h3>
+        <p>Every meal is prepared with passion and care.</p>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+  
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+  
+
+  <footer class="footer">
+    <p>© 2025 Loveberry. All rights reserved.</p>
+  </footer>
+</body>
+</html>
